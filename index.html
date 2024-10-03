@@ -12,19 +12,104 @@
 </head>
 
 <body>
-    <div class="container"> 
-    
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Hi I'm Gas</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Start</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">About me</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Projects</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+        </header>
+    </div>
+
     <section id="inicio" class="inicio">
         <div>
             <img src="images/avatar.png" alt="My avatar"/>
-            <h1>Hi, I'm Gaston</h1>
-            <h2> I'm a System Engineer and Senior Infrastructure professional who enjoys working with CI/CD tools, IaC, networking, and security in hybrid clouds.</h2>
-        
         </div>
     </section>
+    <section id="sobremi" class="sobremi">
+        <div>
+            <h1> I'm a System Engineer and Senior Infrastructure professional who enjoys working with CI/CD tools, IaC, networking, and security in hybrid clouds.</h1>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+     <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h1>Skills</h1>
+            <div class="fila">
+                <!-- Technical Skill -->
+                 <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Kubernetes</span>
+                        <div class="barra-skill">
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Container</span>
+                        <div class="barra-skill">
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>GitHub</span>
+                        <div class="barra-skill">
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>IaC</span>
+                        <div class="barra-skill">
+                        </div>
+                    </div>
+                        
+                    </div>
+                    <!-- Professional Skills -->
+                    <div class="col">
+                        <h3>Professional Skills</h3>
+                        <div class="skill">
+                            <span>Comunicación</span>
+                            <div class="barra-skill">
+                                
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Trabajo en Equipo</span>
+                            <div class="barra-skill">
+                              
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Creatividad</span>
+                            <div class="barra-skill">
+                                
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Dedicación</span>
+                            <div class="barra-skill">
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
     <section ion id="portfolio" class="portfolio">
         <div div class="contenido-seccion">
-            <h2>Projects</h2>
+            <h1>Projects</h1>
             <nav id="nav">
                 <ul>
                     <li><a href="https://github.com/gasmelia">Working on it</a></li>
@@ -38,12 +123,7 @@
 
     <section ion id="contacto" class="contacto">
         <div div class="contenido-seccion">
-            <h2>Please get in touch with me:</h2>
-            <nav id="nav">
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/gastonmelia/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                </ul>
-            </nav>
+            <h1>Please get in touch with me:  <a href="https://www.linkedin.com/in/gastonmelia/"><i class="fa-brands fa-linkedin-in"></i></a></h1>
         </div>
     </section>
 
