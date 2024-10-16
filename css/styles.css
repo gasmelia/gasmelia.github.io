@@ -210,7 +210,7 @@ html{
 }
 /* SECCION S K I L L S */
 .skills{
-    background-color: #252A2E;
+    background-color: #353446;
     color: #fff;
     padding: 50px 20px;
 }
@@ -511,20 +511,24 @@ html{
     letter-spacing: 3px;
     opacity: 0;
 }
-.portfolio .galeria .proyecto .overlay h3{
+.portfolio .galeria .proyecto .overlay h1{
     margin-bottom: 20px;
     transition: 1s;
 }
 .portfolio .galeria .proyecto .overlay:hover{
     opacity: 1;
 }
-.portfolio .galeria .proyecto .overlay:hover h3{
+.portfolio .galeria .proyecto .overlay:hover h1{
     margin-bottom: 0px;
 }
 /* SECCION CONTACTO */
+.contacto img {
+    margin-top: 10px;
+    vertical-align: middle; /* Alineación vertical */
+}
 .contacto{
     background-image: url(img/contact_bg.png);
-    background-color: #1e2326;
+    background-color: #353446;
     color: #fff;
     padding: 50px 0;
 }
@@ -711,4 +715,5 @@ footer .arriba{
     .contacto .fila .col{
         width: 100%;
     }
+    
 }
