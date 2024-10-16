@@ -20,13 +20,13 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#sobremi" onclick="seleccionar()">About me</a></li>
-                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">Projects</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">Contact</a></li>
+                    <li><a href="#sobremi" onclick="">About me</a></li>
+                    <li><a href="#skills" onclick="">Skills</a></li>
+                    <li><a href="#portfolio" onclick="">Projects</a></li>
+                    <li><a href="#contacto" onclick="">Contact</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            <div class="nav-responsive" onclick="">
                     <i class="fa-solid fa-bars"></i>
                 </div>
         </header>
@@ -103,16 +103,20 @@
         <h1>Projects</h1>
         <div class="fila">
             <div class="col">
-                <ul>
+                <h3></h3>
+                <div class="skill">
                     <li>
                         <span>Deploy Nginx with Terraform on Minikube</span>
                         <a href="https://github.com/gasmelia/terra-minikube-nginx-lab" target="_blank">View Project</a>
                     </li>
+                </div>
+                <div class="skill">
                     <li>
                         <span>Deploy Nginx with Terraform on Azure</span>
                         <a href="" target="_blank">View Project</a>
                     </li>
-                </ul>
+                </div>
+            
             </div>
         </div>
        
@@ -121,12 +125,15 @@
 
 <section id="contacto" class="contacto">
     <div class="contenido-seccion">
-        <h1>Get in touch with me</h1>
-        <div>
-        <a href="https://www.linkedin.com/in/gastonmelia" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo de LinkedIn" style="width: 30px; height: auto;">
-        </a>
+        <div class="col">
+            <h1>Get in touch with me</h1>
         </div>
+        <div class="col">
+            <a href="https://www.linkedin.com/in/gastonmelia" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo de LinkedIn" style="width: 30px; height: auto;">
+            </a>
+        </div>
+    
     </div>
 </section>
 
