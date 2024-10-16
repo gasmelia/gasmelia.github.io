@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const reposList = document.getElementById('repos');
-    const username = 'gasmelia'; // Cambia esto por tu nombre de usuario de GitHub
-    const reposToShow = ['terra-minikube-nginx-lab']; // Cambia esto por los nombres de los repos que deseas mostrar
+    const username = 'gasmelia';
+    const reposToShow = ['terra-minikube-nginx-lab'];
 
     fetch(`https://api.github.com/users/${username}/repos`)
         .then(response => response.json())
