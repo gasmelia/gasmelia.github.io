@@ -31,9 +31,11 @@ header {
 
 /* Logo */
 .logo a {
-    font-size: 1.5rem;
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: #1CB698;
     text-decoration: none;
-    color: white;
+
 }
 
 /* Navegación */
