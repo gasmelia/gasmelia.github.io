@@ -144,3 +144,8 @@ h1 {
         flex-direction: column;
     }
 }
+.site-logo{
+    width:30px;
+    vertical-align:middle;
+    margin-right:10px;
+}
