@@ -155,11 +155,17 @@ h1 {
     }
 }
 .site-logo{
-    width:30px;
+    width: 34px;
     height:auto;
 }
 .logo{
     display:flex;
     align-items:center;
-    gap:10px;
+    gap:12x;
+}
+.logo-text{
+    font-size:24px;
+    font-weight:600;
+    letter-spacing:1px;
+    color:#1CB698;
 }
