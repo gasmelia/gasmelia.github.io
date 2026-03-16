@@ -17,7 +17,7 @@ body {
 
 /* Contenedor del encabezado */
 .contenedor-header {
-    background: #1e2326;
+    background: #0A1A2F;
     color: white;
 }
 
@@ -155,7 +155,7 @@ h1 {
     }
 }
 .site-logo{
-    width: 34px;
+    width: 40px;
     height:auto;
 }
 .logo{
