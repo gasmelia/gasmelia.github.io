@@ -32,7 +32,7 @@ header{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:1rem 2rem;
+    padding:1.4rem 2rem;
     max-width:1100px;
     margin:auto;
 }
@@ -155,7 +155,7 @@ h1 {
     }
 }
 .site-logo{
-    width: 40px;
+    width: 65px;
     height:auto;
 }
 .logo{
